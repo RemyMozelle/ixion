@@ -154,11 +154,15 @@ header .sign .btn {
 .container .row .bg-img1 {
     background: url(../img/img1.jpg);
     height: 200px;
+    filter: brightness(60%);
+    background-size: 355px;
 }
 
 .container .row .bg-img2 {
     background: url(../img/img2.jpg);
     height: 200px;
+    filter: brightness(60%);
+    background-size: 355px;
     margin-left: 36px;
     margin-right: 36px;
 }
@@ -166,6 +170,8 @@ header .sign .btn {
 .container .row .bg-img3 {
     background: url(../img/img3.jpg);
     height: 200px;
+    filter: brightness(60%);
+    background-size: 355px;
 }
 
 figure {
@@ -296,19 +302,18 @@ ul li {
     .bouton {
         width: 255px;
     }
-
-    .col-sm-4{
+    .col-sm-4 {
         width: 33%;
     }
-
-    .bg-img2{
+    .bg-img2 {
         margin-left: 0px;
     }
-    .bg-img1, .bg-img2, .bg-img3{
+    .bg-img1,
+    .bg-img2,
+    .bg-img3 {
         width: 100%;
     }
-
-    .container .row .bg-img2{
+    .container .row .bg-img2 {
         margin-left: 0px;
         margin-right: 0px;
     }
