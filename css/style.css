@@ -1,0 +1,315 @@
+/*== header*/
+
+header .sign-in {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+header .sign {
+    text-align: center;
+}
+
+header .sign p {
+    color: #919191;
+}
+
+header .sign .btn {
+    height: 32px;
+    width: 100%;
+    border: 1px solid #acd9e9;
+    border-radius: 0px;
+    margin-bottom: 13px;
+}
+
+.navbar-header {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-collapse {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #d7b221;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d7b221;
+    font-weight: bold;
+}
+
+.dropdown-menu>li>a {
+    color: #d7b221;
+}
+
+
+/*== réseau social header*/
+
+.rs {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid #c6c6c6;
+}
+
+.rs .btn {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    height: 40px;
+    border-radius: 0px;
+    border-top: none;
+    border-bottom: none;
+    border-right: 0.5px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
+    width: 40px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-weight: bold;
+}
+
+
+/*bouton menu*/
+
+.navbar-toggle {
+    border-radius: 0px;
+    background: #d7b221;
+    color: white;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-size: 2em;
+}
+
+.navbar-toggle .div-menu {
+    display: flex;
+    align-items: center;
+}
+
+
+/*bouton menu*/
+
+.menu {
+    margin-left: 10px;
+}
+
+
+/*couleur menu*/
+
+.menu-text {
+    color: #fff;
+}
+
+
+/*modifie le padding*/
+
+.resize-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*modifie le padding*/
+
+.resize-rs {
+    height: 10px;
+}
+
+
+/*bannier*/
+
+.container-fluid .banner {
+    background: url('../img/banner.jpg') no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+}
+
+
+/*For non-profits bouton*/
+
+.for-non-profits .btn {
+    width: 244px;
+    background-color: #d7b221;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 0px;
+}
+
+.col-sm-4 {
+    width: 30%;
+}
+
+
+/*For non-profits img*/
+
+.container .row .bg-img1 {
+    background: url(../img/img1.jpg);
+    height: 200px;
+}
+
+.container .row .bg-img2 {
+    background: url(../img/img2.jpg);
+    height: 200px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.container .row .bg-img3 {
+    background: url(../img/img3.jpg);
+    height: 200px;
+}
+
+figure {
+    margin-bottom: 25px;
+}
+
+.post h1 {
+    font-weight: bold;
+}
+
+.news-post h1 {
+    font-weight: bold;
+}
+
+
+/*dr Seymour color div*/
+
+.dr-seymour {
+    background-color: #eeece8;
+    padding: 15px;
+}
+
+.news-events {
+    font-weight: bold;
+}
+
+.news-events h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.news-events h2 ul {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.first {
+    padding-left: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    color: #192930;
+}
+
+.hr-after-img .resize-padding {
+    border: 2px solid #efede9;
+    width: 100%;
+}
+
+.btn {
+    border-left: none;
+    border-radius: 0px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.blog {
+    border-top: 1px #919191 solid;
+    border-bottom: 5px #919191 solid;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.orange {
+    color: #d7b221;
+}
+
+.gris {
+    color: #acd9e9;
+}
+
+.gris-foncer {
+    color: #b1afab;
+}
+
+.blanc {
+    color: white;
+}
+
+.noir {
+    color: #13232a;
+}
+
+.text-middle {
+    position: relative;
+    top: 70px;
+}
+
+@media (min-width:768px) {
+    .sign-in {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sign-up {
+        width: 300px;
+    }
+    .sign {
+        margin-left: 20px;
+    }
+    .bouton {
+        width: 165px;
+    }
+    .post {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .sign-in {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bouton {
+        width: 255px;
+    }
+
+    .col-sm-4{
+        width: 33%;
+    }
+
+    .bg-img2{
+        margin-left: 0px;
+    }
+    .bg-img1, .bg-img2, .bg-img3{
+        width: 100%;
+    }
+
+    .container .row .bg-img2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
